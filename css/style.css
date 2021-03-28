@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100vw;
+  height: 300px;
+  position: relative;
+  text-align: center;
+}
+
+header > .bunny {
+  height: 300px;
+  width: auto;
+  position: absolute;
+  top: 0;
+}
+header > .bunny-left {
+  left: 0;
+}
+header > .bunny-right {
+  right: 0;
+}
+header > .banner {
+  height: 300px;
+  width: auto;
+  display: inline-block;
+  top: 0;
+  left: 300px;
+}
+
+h2 {
+  margin: 25px 0;
+  font-family: "Pangolin", cursive;
+  text-align: center;
+  font-size: 36pt;
+  color: rgb(218, 174, 215);
+}
+
+.choose {
+  padding: 10px;
+  width: 100vw;
+  text-align: center;
+}
+
+.choice {
+  width: 30%;
+  border: 2px;
+  border-color: rgb(218, 174, 215);
+  box-shadow: 2px 2px 5px rgb(218, 174, 215);
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+}
+
+.choice > h2 {
+  font-family: "Pangolin", cursive;
+  text-align: center;
+  font-size: 20pt;
+  color: rgb(218, 174, 215);
+}
+
+.choice > img {
+  width: 100%;
+  height: auto;
+}
+
+.choice p {
+  margin: 15px 5px;
+  font-size: 18pt;
+}
+iframe {
+  width: 90%;
+  height: 300px;
+  margin: 10px 5px;
+}
